@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Img/login.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: cursive;
+    height: 100vh;
+}
+
+.Login-box{
+    width: 320px; 
+    height: 420px;
+    background: rgba(26, 25, 25, 0.856);
+    color: #c2c4c5;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.Login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.Login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.Login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.Login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.Login-box input[type="text"],
+.Login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.Login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #919394;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.Login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: gainsboro;
+
+}
+.Login-box a:hover{
+    color: white;
+}
+.Login-box input:hover[type="submit"]{
+    color:rgb(80, 79, 79)
+
+}
+nav{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    background-color: rgb(68, 68, 68) ;
+}
+ul {
+    list-style: none;
+    margin-top: 150px;
+    display: block;
+}
+li{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+p.menu{
+    position: relative;
+    padding: 3px;
+    padding-right: 25px;
+    float: right;
+    color:white;
+    opacity: .6;
+    font-size: 1.2em;
+}
+s.barra{
+    position: absolute;
+    height: 50px;
+    width: 0px;
+    background-color: #aaa;
+    opacity: .1;
+    -webkit-transition: width .2s;
+    -moz-transition: width .2s;
+    -ms-transition: width .2s;
+    -o-transition: width .2s;
+}
+li:hover s.barra{
+    width: 210px;
+}
+
+
+div{
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+}
+u{
+    position: absolute;
+    right: 410px;
+    bottom: 300px;
+
+
+}
